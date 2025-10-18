@@ -2,6 +2,9 @@
 // object.create
 // objects literals ->
 
+
+//node 1basics/11objects.js
+
 const Mysym = Symbol("key1")
 
 const JsUser ={
@@ -11,7 +14,7 @@ const JsUser ={
     age: 22 ,
     email: "abhijeet@gmail.com" ,
     isLoggedIn: false,
-    lasrLoggedIn:["Monday , Tuesday"]
+    lastLoggedIn:["Monday , Tuesday"]
 }
 
 // two ways to access 

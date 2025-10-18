@@ -27,11 +27,11 @@
  }
 
 
-//addTwonumber(2,3)
+//console.log(addTwonumber(2,3))
 //addTwonumber(2,"3")
-const Result = addTwonumber(3,5)
+//const Result = addTwonumber(3,5)
  
-// console.log("Result :" , Result);
+// console.log("Result :" , Result);     
 
  function loginUserMessage(username){
      if(!username) { //!username= username === undefined
@@ -42,20 +42,21 @@ const Result = addTwonumber(3,5)
  }
 
 //console.log( loginUserMessage("abhijeet"));
-// console.log( loginUserMessage()); // undefined just logged in
+ //console.log( loginUserMessage()); // undefined just logged in
 
 
-// function calculateCarPrice(...num1){ // ... res operator
-//    return num1
-// }
+//  function calculateCarPrice(...num1){ // ... res operator
+//     return num1
+//  }
 
-// console.log(calculateCarPrice(200,440,500));
+//  console.log(calculateCarPrice(200,440,500));
 
 function calculateCarPrice(val1,val2,...num1){ // important
-   return num1
+   return (num1)
+    return [val1,val2,num1]  // to return all the value
 }
 
-console.log(calculateCarPrice(200,440,500,2000));
+//console.log(calculateCarPrice(200,440,500,2000));
 
 
 const user={
